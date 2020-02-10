@@ -1,0 +1,20 @@
+{
+  "name": "ljpc/jumboextras",
+  "type": "library",
+  "description": "Talks to the Jumbo servers",
+  "autoload": {
+    "psr-4": {
+      "LJPc\\JumboExtras\\Calls\\": "Calls"
+    }
+  },
+  "authors": [
+    {
+      "name": "Lars Jansen",
+      "email": "lars@ljpc.nl"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0",
+    "ext-curl": "*"
+  }
+}
